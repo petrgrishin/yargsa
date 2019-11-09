@@ -1,0 +1,34 @@
+{
+  "name": "yargsa",
+  "version": "0.0.1",
+  "description": "an experimental async-first version of yargs, pronounced \"yargs eh\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "c8 mocha test.js",
+    "posttest": "standard && prettier --check ./**/*.md",
+    "fix": "standard --fix && prettier --write ./README.md ./CONTRIBUTING.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yargs/yargsa.git"
+  },
+  "keywords": [
+    "yargs",
+    "async",
+    "eh",
+    "experimental"
+  ],
+  "author": "Ben Coe <bencoe@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yargs/yargsa/issues"
+  },
+  "homepage": "https://github.com/yargs/yargsa#readme",
+  "devDependencies": {
+    "c8": "^6.0.1",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "prettier": "^1.19.1",
+    "standard": "^14.3.1"
+  }
+}
