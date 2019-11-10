@@ -1,6 +1,6 @@
 {
   "name": "yargsa",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "an experimental async-first version of yargs, pronounced \"yargs eh\".",
   "main": "index.js",
   "scripts": {
