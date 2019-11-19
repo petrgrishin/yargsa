@@ -4,8 +4,8 @@
   "description": "an experimental async-first version of yargs, pronounced \"yargs eh\".",
   "main": "src/index.ts",
   "scripts": {
-    "test": "NODE_ENV=test jest",
-    "test:coverage": "NODE_ENV=test jest --coverage",
+    "test": "cross-env NODE_ENV=test jest",
+    "test:coverage": "cross-env NODE_ENV=test jest --coverage",
     "lint": "eslint **/*.ts",
     "lint:fix": "eslint --fix **/*.ts",
     "check:type": "tsc --noEmit",
@@ -44,6 +44,7 @@
     "@typescript-eslint/eslint-plugin": "^2.3.1",
     "@typescript-eslint/parser": "^2.3.1",
     "babel-plugin-transform-typescript-metadata": "^0.2.2",
+    "cross-env": "^6.0.3",
     "eslint": "^6.5.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.3.0",
